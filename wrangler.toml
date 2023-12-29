@@ -1,0 +1,24 @@
+name = "feedback"
+main = "src/worker.ts"
+compatibility_date = "2023-12-17"
+node_compat = true
+workers_dev = true
+env = [
+  { mailToken="a2cf4ab6814045afeead51a94c17d5c4" }
+]
+
+
+kv_namespaces = [
+  { binding = "userskv", id = "a1c0d33ff5b749f9aa5b657786edd4db" }
+]
+
+
+
+
+[triggers]
+crons = [ ]
+account_id="264503b93310d78333813ad95ab24eea"
+route="feedback.waelchafei.workers.dev/*"
+
+
+

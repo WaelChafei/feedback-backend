@@ -1,0 +1,26 @@
+{
+  "name": "feedback",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler publish",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "@types/node": "^20.10.5",
+    "@types/nodemailer": "^6.4.14",
+    "@types/superagent": "^4.1.24",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@cloudflare/itty-router-openapi": "^0.1.11",
+    "@getbrevo/brevo": "^2.0.0-beta.4",
+    "mailtrap": "^3.2.0",
+    "nodemailer": "^6.9.7",
+    "request": "^2.88.2",
+    "sib-api-v3-sdk": "^8.5.0",
+    "superagent": "^8.1.2"
+  }
+}
